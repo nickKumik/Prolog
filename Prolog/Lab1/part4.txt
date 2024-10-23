@@ -1,0 +1,13 @@
+To apply backward chaining, we start with the hypothesis C and attempt to work backward through the rules 
+to determine if there are any conditions that must be met in order for C to be true. Here are the steps 
+involved in backward chaining for this scenario:
+
+
+First we start to look for a rule that directly implies C. Rule 1 is the only rule that has C in its conclusion. Now
+we can use this rule to determine what conditions must be met for C to be true. Rule 1 states that if A and B are true.
+Then C must be true. Meaning we need to determine that A and B are true in order for C to be true. Rule 2 is the only rule which
+has a A as its conclusion. Which states that if X is not tue then A must be true. Meaning we need to determine that X is not true
+in order for A to be true. Rule 3 is the only rule which has a X as its conclusion. Which states that if D and F are true then X must be true. 
+How ever since their is no rule which directly implies B we cannot determine whether B is true. Since we cannot determine whether B is true
+we cannot determine whether C is true either. Therefore we cannot infer that hypothesis C can be inferred based on the given knowledge base
+and starting conditions.
